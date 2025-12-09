@@ -1,0 +1,209 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+esd.log
+Icon?
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Uploaded files and outputs
+backend/uploads/
+backend/temp/
+backend/outputs/
+backend/static/downloads/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.bmp
+
+# But keep sample files
+!samples/*.pdf
+!samples/*.png
+!samples/*.jpg
+
+# OCR test results
+ocr_test_results.json
+trocr_results.json
+test_*.py
+
+# Model cache (Hugging Face)
+.cache/
+huggingface/
+transformers_cache/
+
+# Logs
+*.log
+logs/
+*.out
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython
+cython_debug/
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Compressed files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Credentials and secrets
+*secret*
+*credentials*
+*password*
+*.pem
+*.key
+*.crt
+*.cert
+id_rsa*
+config.secret.py
+
+# Large model files (if storing locally)
+*.h5
+*.pkl
+*.pickle
+*.joblib
+*.bin
+*.onnx
+*.pb
+*.pt
+*.pth
+
+# Node modules (if you add frontend build tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build artifacts
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Documentation builds
+docs/_build/
+site/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Coverage reports
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+
+# Profiling data
+*.prof
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+backend/outputs/
+venv/
+backend/__pycache__/
+backend/ocr/__pycache__/
+backend/uploads/
+backend/utils/__pycache__/
+backend/verification/__pycache__/
