@@ -1,0 +1,25 @@
+[project]
+name = "mosip-iitm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "cryptography>=46.0.3",
+    "fastapi>=0.124.1",
+    "numpy>=2.3.5",
+    "opencv-python>=4.11.0.86",
+    "pdf2image>=1.17.0",
+    "pillow>=12.0.0",
+    "pydantic>=2.12.5",
+    "pytesseract>=0.3.13",
+    "python-dateutil>=2.9.0.post0",
+    "python-levenshtein>=0.27.3",
+    "python-multipart>=0.0.20",
+    "qrcode[pil]>=8.2",
+    "rapidfuzz>=3.14.3",
+    "torch>=2.9.1",
+    "torchvision>=0.24.1",
+    "transformers>=4.57.3",
+    "uvicorn[standard]>=0.38.0",
+]

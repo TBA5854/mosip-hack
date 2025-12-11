@@ -388,3 +388,4 @@ function showLoading() {
 function hideLoading() {
     loadingOverlay.classList.add('hidden');
 }
+
